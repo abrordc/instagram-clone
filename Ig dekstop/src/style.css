@@ -1,0 +1,98 @@
+:root {
+  --bg-color: #eee;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: Sans-Serif;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  margin: 0px auto;
+  padding-top: 50px;
+}
+.gambar {
+  width: 50%;
+  margin-right: 20px;
+  box-shadow: 5px 5px 10px grey;
+}
+.img-thumnel {
+  width: 100%;
+}
+.card-wrapper {
+  width: 50%;
+}
+
+.card {
+  border-style: solid;
+  border-color: #f0f0f0;
+  border-width: 2px;
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.ig-logo {
+  width: 180px;
+}
+.form {
+  margin-top: 30px;
+}
+.input-ig {
+  width: 300px;
+  height: 30px;
+  border: 1px solid grey;
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: 1s;
+}
+.input-ig:hover {
+  transition: 1s;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.btn {
+  background-color: #0095f6;
+  border: 0px solid transparent;
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  color: #fff;
+  transition: 2s;
+}
+.btn:hover {
+  transition: 2s;
+  font-size: 20px;
+  height: 35px;
+}
+.login-fb {
+  text-decoration: none;
+  color: #01017a;
+}
+.forgout-ig {
+  font-size: 12;
+  color: grey;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+html, body {
+      max-width: 100%;
+      overflow-x: hidden;
+      }
+  .container {
+    display: flex;
+    width: 800px;
+    margin: 0px auto;
+    padding-top: 50px;
+    margin-left: 50px;
+  }
+  .gambar {
+    display: none;
+  }
+}
